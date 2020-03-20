@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.11);
+	padding: 30px;
+}
